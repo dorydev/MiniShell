@@ -1,6 +1,5 @@
-
-
+#include "mysh.c"
 
 int main() {
-  return 0;
+  sh_loop();
 }
