@@ -8,8 +8,8 @@ void   put_char(const char *s);
 int str_len(const char *str);
 char  *xstrdup(const char *s);
 
-char  *read_line(void);        // lit une ligne sans getline, retourne malloc()
-char **split_line(char *line); // argv NULL-terminé (tokens dupliqués)
+char  *read_line(void);
+char **split_line(char *line);
 void   free_argv(char **argv);
 
 int    my_cd(char **argv);
