@@ -1,4 +1,4 @@
 minishell
 *.o
 *.bin
-.DS_STORE
+.DS_Store
