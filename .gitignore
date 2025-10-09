@@ -2,3 +2,4 @@ minishell
 *.o
 *.bin
 .DS_Store
+.vscode
