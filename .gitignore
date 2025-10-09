@@ -3,4 +3,3 @@ minishell
 *.bin
 .DS_Store
 .vscode
-shell_icon.png
