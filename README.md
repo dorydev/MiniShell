@@ -1,4 +1,4 @@
-# MiniShell
+#  MiniShell <img src="shell_icon.png" width="50" align="left" />
 
 A lightweight Unix command interpreter written in C — built **from scratch** to understand how a real shell works (input reading, parsing, built-in command execution, environment management…).
 
@@ -14,7 +14,7 @@ A lightweight Unix command interpreter written in C — built **from scratch** t
 
 ## Table of Contents
 
-- [MiniShell](#minishell)
+- [MiniShell ](#minishell-)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
     - [Main Functions](#main-functions)
