@@ -1,20 +1,23 @@
-#  MiniShell <img src="shell_icon.png" width="50" align="left" />
+#  CatOS <img src="shell_icon.png" width="50" align="left" />
 
-A lightweight Unix command interpreter written in C — built **from scratch** to understand how a real shell works (input reading, parsing, built-in command execution, environment management…).
+Previously named MiniShell, this project is a merge of MiniShell and LinuxFromScratch to create a simple, lightweight command-line OS. Written in C and Assembly, I built it from scratch to understand how a real operating system works.
+
+<img src="minishell_project.png" align="center"/>
+
+<br>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C-blue" />
+  <img src="https://img.shields.io/badge/Language-ASM-blue" />
   <img src="https://img.shields.io/badge/Standard-C99-informational" />
   <img src="https://img.shields.io/badge/Platform-macOS%20%7C%20Linux-lightblue" />
   <img src="https://img.shields.io/badge/Build-Makefile-success" />
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey" />
 </p>
 
----
 
 ## Table of Contents
 
-- [MiniShell ](#minishell-)
+- [CatOS ](#catos-)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
     - [Main Functions](#main-functions)
@@ -23,7 +26,6 @@ A lightweight Unix command interpreter written in C — built **from scratch** t
   - [Installation](#installation)
   - [License](#license)
 
----
 
 ## Features
 
@@ -91,7 +93,7 @@ clang -std=c99 -Wall -Wextra -Werror -O2 -Iinclude \
 
 ## License
 
---
+No licence for now
 
 \
 \
