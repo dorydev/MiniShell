@@ -5,8 +5,22 @@
 #include "mylib.h"
 
 int sh_loop(void) {
+
+  const char *welcome =
+    "\033[1;36m"
+    "   /\\_/\\\n"
+    "   >^.^<.---.\n"
+    "  _'-`-'     )\\\n"
+    " (6--\\ |--\\ (`.`-.\n"
+    "     --'  --'  ``-'BP\n"
+    "-------------------------\n"
+    "  Welcome on CatOS =^-^= \n"
+    "    The Linux-based mini-os written in C & x86_64 Assembly.\n"
+    "\033[0m\n";
+    write(1, welcome, strlen(welcome));
+
     for (;;) {
-        if (isatty(STDIN_FILENO)) write(1, "$> ", 3);
+        if (isatty(STDIN_FILENO)) write(1, "~$ ", 3);
 
         char *line = read_line();
         if (!line) { if (isatty(STDIN_FILENO)) write(1, "\n", 1); break; }
