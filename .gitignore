@@ -3,4 +3,4 @@ minishell
 *.bin
 .DS_Store
 .vscode
-*.png
+build

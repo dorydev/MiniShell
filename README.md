@@ -1,8 +1,8 @@
-#  CatOS <img src="shell_icon.png" width="50" align="left" />
+#  CatOS <img src="assets/shell_icon.png" width="50" align="left" />
 
 Previously named MiniShell, this project is a merge of MiniShell and LinuxFromScratch to create a simple, lightweight command-line OS. Written in C and Assembly, I built it from scratch to understand how a real operating system works.
 
-<img src="minishell_project.png" align="center"/>
+<img src="assets/minishell_project.png" align="center"/>
 
 <br>
 
